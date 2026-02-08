@@ -1,0 +1,55 @@
+import { queryDB } from "../../lib/db";
+
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Method Not Allowed" });
+  }
+
+  const { username, password } = req.body;
+  console.log("🔹 Login Attempt:", { username, password });
+
+  try {
+    // Fetch admin user from database
+    const query = `SELECT * FROM [ACM].[USER_MST] WHERE LOGIN_ID = '${username}' AND USER_TYPE = 1`;
+    const result = await queryDB(query);
+
+    console.log("🔹 Database Response:", result.recordset);
+
+    if (result.recordset.length === 0) {
+      return res.status(401).json({ 
+        success: false, 
+        message: "Invalid username or password (User not found)" 
+      });
+    }
+
+    const user = result.recordset[0];
+    
+    // Encode the input password using Base64
+    const encodedPassword = Buffer.from(password).toString('base64');
+    console.log("🔹 Stored Password:", user.PASSWORD);
+    console.log("🔹 Encoded Input Password:", encodedPassword);
+    
+    //  Compare the encoded password with the stored password
+     if (encodedPassword !== user.PASSWORD) {
+       console.log("❌ Password mismatch");
+       return res.status(401).json({ 
+         success: false, 
+         message: "Invalid username or password (Password mismatch)" 
+       });
+    }
+
+    console.log("✅ Login successful");
+    return res.status(200).json({ 
+      success: true, 
+      message: "Login successful" 
+    });
+
+  } catch (error) {
+    console.error("❌ Database Error:", error);
+    return res.status(500).json({ 
+      success: false, 
+      message: "Database error", 
+      error: error.message 
+    });
+  }
+}
