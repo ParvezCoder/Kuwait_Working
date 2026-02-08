@@ -1,0 +1,74 @@
+import React, { Fragment } from 'react';
+import Header2 from '../components/Header2/Header2';
+// import CtaSection from '../components/CtaSection/CtaSection';
+import Scrollbar from '../components/scrollbar/scrollbar';
+import Hero2 from '../components/hero2/hero2';
+import Hero22 from '../components/hero2/hero22';
+// import FeaturePartners from '../components/software-company-components/FeaturePartners';
+import ServiceSection from '../components/software-company-components/ServiceSection/ServiceSection';
+import About from '../components/software-company-components/about/about';
+import ProcessTechnology from '../components/software-company-components/ProcessTechnology/ProcessTechnology';
+import FaqSection from '../components/software-company-components/FaqSection/FaqSection';
+import Special from '../components/Special/Special';
+// import BlogSection from '../components/software-company-components/BlogSection/BlogSection';
+import ContactSection from '../components/software-company-components/ContactSection';
+import Footer from '../components/software-company-components/Footer/Footer';
+import Head from 'next/head';
+
+
+
+
+
+const HomePage = () => {
+
+    return (
+        <Fragment>
+            {/* SEO Content is here ---------->>>>>>>>> */}
+            <Head>
+                <title>Corp-Digital-53</title>
+                <meta name="description" content="Learn more about Corp-Digital, our values, our mission, and how we provide cutting-edge digital solutions to help businesses grow." />
+                <meta name="keywords" content="About Corp-Digital, Digital Solutions, Business Transformation, CEO Message" />
+                <meta property="og:title" content="Corp-Digital-53" />
+                <meta property="og:description" content="We are committed to providing quality digital solutions worldwide. Learn more about our mission and team." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://corp.digital53.com" />
+                <meta property="og:image" content="https://corp.digital53.com/images/logoseo.png" /> // Replace with actual image URL
+                <meta name="google-site-verification" content="vlT1CW0_m4R7fUB35bBTnv9Wc0PQ1fn6rjxErdLefhU" />
+                <meta name="facebook-domain-verification" content="g7byywbqasdmwwuc103kpluv41rewi" />
+                <link rel="canonical" href="https://corp.digital53.com" />
+            </Head>
+            {/* SEO Content ends here ---------->>>>>>>>> */}
+
+
+            <div>
+                <Header2 />
+                <main className="page_content">
+                    <Hero22 />
+                    {/* <FeaturesSection />
+                    <About />
+                    <PolicySection />
+                    <ServiceSection />
+                    <ProjectSection />
+                    <Testimonial />
+                    <TeamSection />
+                    <BlogSection /> */}
+                    {/* 
+                    <CtaSection /> */}
+                    {/* <FeaturePartners /> */}
+                    <ServiceSection />
+                    <About />
+                    <ProcessTechnology />
+                    <Special />
+                    {/* <ProcessTechnology /> */}
+                
+                    {/* <BlogSection /> */}
+                    <ContactSection />
+                        <FaqSection />
+                </main>
+                <Footer />
+                <Scrollbar />
+            </div>
+        </Fragment>
+    )
+};
+export default HomePage;
