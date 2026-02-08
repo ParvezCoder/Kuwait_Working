@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// working on AI chatbot
 import Link from 'next/link'
 import about1 from '/public/images/about/about_image_9.webp'
 import about2 from '/public/images/about/about_image_11.webp'
