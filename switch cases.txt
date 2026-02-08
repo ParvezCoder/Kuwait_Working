@@ -1,0 +1,4 @@
+use hrm
+select * from [dbo].[WEBSITECONTENT]  WEBSITECONTENT 
+where switch1 in ('31','32','33','34','35','36') 
+order by switch1,SortBy

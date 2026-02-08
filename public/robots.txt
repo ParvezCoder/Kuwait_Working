@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://corp.digital53.com/sitemap.xml

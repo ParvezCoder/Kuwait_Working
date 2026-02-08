@@ -1,0 +1,46 @@
+ Volume in drive H is Johar4H
+ Volume Serial Number is 5C38-6595
+
+ Directory of H:\DESourceCode\GitHub2025\corp-revamp\pages
+
+09/09/2025  10:26 PM    <DIR>          .
+09/09/2025  04:35 PM    <DIR>          ..
+09/09/2025  04:35 PM    <DIR>          404
+08/23/2025  02:39 PM    <DIR>          about
+08/22/2025  03:58 PM    <DIR>          admin
+09/09/2025  04:35 PM    <DIR>          api
+09/09/2025  04:35 PM    <DIR>          blog
+08/23/2025  04:37 PM    <DIR>          blog-single
+08/23/2025  04:37 PM    <DIR>          calendar
+09/09/2025  04:35 PM    <DIR>          contact
+09/09/2025  04:35 PM    <DIR>          DevelopmentCycle
+09/09/2025  04:35 PM    <DIR>          ecommerce
+09/09/2025  04:35 PM    <DIR>          FaqErp
+08/22/2025  03:58 PM    <DIR>          goal
+08/23/2025  02:39 PM    <DIR>          Header2
+08/22/2025  03:58 PM    <DIR>          home
+08/22/2025  03:58 PM    <DIR>          home_business_consulting
+09/09/2025  04:35 PM    <DIR>          home_software_company
+09/09/2025  09:01 PM             3,617 index.js
+09/09/2025  04:35 PM    <DIR>          portfolio
+08/22/2025  03:58 PM    <DIR>          portfolio_details
+09/09/2025  04:35 PM    <DIR>          POSTMBill
+09/09/2025  04:35 PM    <DIR>          pricing
+09/09/2025  04:35 PM    <DIR>          Profile
+09/09/2025  09:36 PM             7,823 SEOHomeWork2025ByJohar.txt
+09/09/2025  04:35 PM    <DIR>          service
+09/09/2025  04:35 PM    <DIR>          service-detail
+08/22/2025  03:58 PM    <DIR>          service-single
+09/09/2025  04:35 PM    <DIR>          services
+09/09/2025  04:35 PM    <DIR>          showcase
+09/09/2025  04:35 PM    <DIR>          solutions
+09/09/2025  04:35 PM    <DIR>          solution_details
+09/09/2025  10:26 PM                 0 STRUCTURE.TXT
+09/09/2025  04:35 PM    <DIR>          team
+08/22/2025  03:58 PM    <DIR>          team-single
+06/13/2025  12:07 AM    <DIR>          test
+09/09/2025  04:35 PM    <DIR>          Who_we_are
+09/09/2025  04:35 PM             2,168 _app.js
+06/13/2025  12:07 AM               794 _document.js
+               5 File(s)         14,402 bytes
+              34 Dir(s)  275,844,759,552 bytes free
