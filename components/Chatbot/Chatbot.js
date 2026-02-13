@@ -6,7 +6,7 @@ const Chatbot = () => {
   useEffect(() => {
 	createChat({
 	  webhookUrl:
-		"https://coderr7.app.n8n.cloud/webhook/9d109148-cd12-4fbe-a4d7-ac9c3c4605e2/chat",
+		"https://coderr7.app.n8n.cloud/webhook/ea386dfa-e950-4862-96f4-c610919e809d/chat",
 	  webhookConfig: {
 		method: "POST",
 		headers: {},
@@ -21,15 +21,14 @@ const Chatbot = () => {
 	  showWelcomeScreen: false,
 	  defaultLanguage: "en",
 	  initialMessages: [
-		"👋 Hello! I'm A.I Assistant of Parvez Ahmed.",
-		// "How can I help you today?",
+		"👋 Hello! I'm A.I Assistant of Johar Saifuddin.",
 	  ],
 	  i18n: {
 		en: {
-		  title: "🤖 AI Chatbot of Parvez Ahmed",
+		  title: "🤖 AI Chatbot of Johar Saifuddin",
 		  subtitle: "",
 		  // subtitle: "Ask me anything — I’m here to assist you 24/7!",
-		  footer: "Powered by ReXson Solution",
+		  footer: "Powered by Crops Digital",
 		  getStarted: "Start Chat",
 		  inputPlaceholder: "Type your question here...",
 		  closeButtonTooltip: "Close chat", // ✅ Added this line
