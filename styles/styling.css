@@ -1,0 +1,103 @@
+   /* 🌐 Root Variables */
+:root {
+  /* 🎨 Brand / Accent */
+  --chat--color--primary: #e9093a;
+  --chat--color--primary-shade-50: #e90624;
+  --chat--color--primary--shade-100: #b6215f;
+  --chat--color--secondary: #5e0909;
+
+  /* 🖤 Core Dark Colors */
+  --chat--color-white: #0b0f19;
+  --chat--color-light: #0f172a;
+  --chat--color-light-shade-50: #1e293b;
+  --chat--color-light-shade-100: #334155;
+  --chat--color-medium: #475569;
+  --chat--color-dark: #e5e7eb;
+  --chat--color-disabled: #475569;
+  --chat--color-typing: #94a3b8;
+
+  /* 🧱 Layout */
+  --chat--spacing: 1rem;
+  --chat--border-radius: 14px;
+  --chat--transition-duration: 0.25s;
+  --chat--font-family: "Inter", system-ui, sans-serif;
+
+  /* 🪟 Window */
+  --chat--window--width: 380px;
+  --chat--window--height: 560px;
+  --chat--window--bottom: 20px;
+  --chat--window--right: 20px;
+  --chat--window--z-index: 9999;
+  --chat--window--border: 1px solid #1e293b;
+  --chat--window--border-radius: 16px;
+
+  /* 🧠 Header */
+  --chat--header--padding: 1rem;
+  --chat--header--background: linear-gradient(
+    135deg,
+    #ed3a52,
+    #ee2222
+  );
+  --chat--header--color: #ffffff;
+  --chat--heading--font-size: 1.1rem;
+
+  /* 💬 Messages */
+  --chat--message--font-size: 0.95rem;
+  --chat--message--padding: 0.75rem 1rem;
+  --chat--message--border-radius: 14px;
+  --chat--message--bot--background: #020617;
+  --chat--message--bot--color: #e5e7eb;
+  --chat--message--user--background: linear-gradient(
+    135deg,
+    #ed3a52,
+    #ee2222
+  );
+  --chat--message--user--color: #ffffff;
+  --chat--message--margin-bottom: 0.75rem;
+
+  /* 📝 Input */
+  --chat--textarea--height: 48px;
+  --chat--input--background: #020617;
+  --chat--input--text-color: #e5e7eb;
+  --chat--input--padding: 0.75rem;
+  --chat--input--border-radius: 12px;
+  --chat--input--placeholder--font-size: 0.9rem;
+
+  /* 🚀 Buttons */
+  --chat--button--background--primary: #fd0404;
+  --chat--button--background--primary--hover: #a80606e8;
+  --chat--button--color--primary: #ffffff;
+
+  /* 🎯 Floating Toggle */
+  --chat--toggle--size: 60px;
+  --chat--toggle--background: linear-gradient(
+    135deg,
+    #ff0202,
+    #f30505
+  );
+  --chat--toggle--hover--background: #ca0707;
+  --chat--toggle--color: #ffffff;
+
+  /* 📦 Body / Footer */
+  --chat--body--background: #020617;
+  --chat--footer--background: #020617;
+  --chat--footer--color: #94a3b8;
+}
+
+/* ✨ Extra polish */
+.chat-window {
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.chat-message.bot {
+  border: 1px solid #1e293b;
+}
+
+.chat-input textarea {
+  outline: none;
+}
+
+.chat-input textarea:focus {
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.4);
+}
