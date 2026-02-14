@@ -21,11 +21,11 @@ const Chatbot = () => {
 	  showWelcomeScreen: false,
 	  defaultLanguage: "en",
 	  initialMessages: [
-		"👋 Hello! I'm A.I Assistant of Johar Saifuddin.",
+		"👋 Hello! I'm A.I Assistant of Digital Edge Solutions Company.",
 	  ],
 	  i18n: {
 		en: {
-		  title: "🤖 AI Chatbot of Johar Saifuddin",
+		  title: "🤖 Welcome to Digital Edge Solutions Company",
 		  subtitle: "",
 		  // subtitle: "Ask me anything — I’m here to assist you 24/7!",
 		  footer: "Powered by Crops Digital",
